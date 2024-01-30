@@ -14,6 +14,7 @@
               'Content-Type': 'application/json'
             }
           });
+          router.push('/');
       }
       return (
         <>

@@ -1,7 +1,6 @@
 import { MongoClient, ObjectId } from "mongodb";
 
 export default async function handler(req, res) {
-    console.log("edit-meetup",req.body)
   if (req.method === 'PUT') {
     const { id, ...updatedData } = req.body;
 
